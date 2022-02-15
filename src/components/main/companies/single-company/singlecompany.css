@@ -1,0 +1,86 @@
+.company {
+  height: 30rem;
+  width: 30rem;
+  background-color: white;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.company__image-box {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  height: 9rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.single-image img {
+  height: 9rem;
+  width: 14.2rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.company__logo {
+  position: absolute;
+  top: 5.2rem;
+  left: 2.3rem;
+}
+
+.company__logo img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+}
+
+.company__content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 3rem;
+  padding-top: 1.7rem;
+}
+
+.company__content-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2a2a2e;
+}
+
+.location {
+  font-size: 1.4rem;
+  color: #63636a;
+  display: flex;
+  gap: 1rem;
+}
+
+.Quantity {
+  color: #01896a !important;
+}
+
+.company__content-box p {
+  font-size: 1.4rem;
+  color: #63636a;
+}
+
+.button-classic {
+  width: 12rem;
+  height: 3.5rem;
+  margin: 1.5rem 2.8rem 0 2.82rem;
+  outline: none;
+  border: none;
+  border-radius: 9.9rem;
+  background-color: #d1ffd0;
+  color: #01896a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-classic:hover {
+  background-color: #01896a;
+  color: white;
+}

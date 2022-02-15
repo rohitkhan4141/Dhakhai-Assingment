@@ -1,0 +1,54 @@
+.sidebar {
+  width: 8rem;
+  height: 180rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.sidebar__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 65rem;
+  max-height: 62.5rem;
+}
+
+.logo {
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.image {
+  padding: 1rem 0;
+}
+
+.image img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.sidebar__content-bottom .image {
+  padding: 1rem 0;
+  cursor: pointer;
+}
+.sidebar__content-bottom .image img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
